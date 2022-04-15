@@ -11,8 +11,8 @@ const Home = () => {
             <Header></Header>
             <Banner></Banner>
             <Foodfilter></Foodfilter>
-            <Blog></Blog>
-            <Footer></Footer>
+            {/* <Blog></Blog>
+            <Footer></Footer> */}
         </>
     );
 };
