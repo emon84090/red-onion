@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.banner-all-content {
+    background-image: url('https://i.ibb.co/TrTDZSN/bannerbackground.png');
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    background-position: -67px 10px;
+}
