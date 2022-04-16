@@ -3,7 +3,7 @@ import React from 'react';
 const Singlefood = () => {
     return (
         <>
-            <div className="single-food-all">
+            <div className="single-food-all py-5">
                 <div className="container mx-auto">
                     <div className="single-food-content place-items-center h-screen grid grid-cols-12 gap-2 px-5">
                         <div className="single-food-left order-2 md:order-1 col-span-12 md:col-span-6 lg:col-span-4">

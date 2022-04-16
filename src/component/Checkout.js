@@ -3,10 +3,10 @@ import React from 'react';
 const Checkout = () => {
     return (
         <>
-            <div className="checkout-all-content mt-7">
+            <div className="checkout-all-content mt-7 py-8">
                 <div className="container mx-auto">
-                    <div className="checkout-content grid grid-cols-12 gap-8">
-                        <div className="checkout-details col-span-8 max-w-lg w-full">
+                    <div className="checkout-content grid grid-cols-12  gap-8 px-2">
+                        <div className="checkout-details order-2 col-span-12 lg:col-span-8 md:col-span-6 max-w-lg w-full">
                             <h1 className='mb-2 text-3xl font-semibold'>Edit Delivery Details</h1>
                             <hr className='mb-5 h-0.5 bg-gray-400' />
                             <form action="">
@@ -32,7 +32,7 @@ const Checkout = () => {
 
                             </form>
                         </div>
-                        <div className="food-cart col-span-4 mt-6 px-4">
+                        <div className="food-cart col-span-12 md:col-span-6 lg:col-span-4 order-2 mt-6 px-4">
                             <p className='my-2'>Form <span className='font-semibold'>Gulshan pieza restura</span></p>
                             <p>Arriving in 20-30 min</p>
                             <p className='mt-1'>107 Rd No 8</p>
@@ -82,6 +82,29 @@ const Checkout = () => {
                                 </div>
 
 
+                            </div>
+
+                            <div className="cart-total mt-4 px-2">
+                                <div className="subtotal flex justify-between">
+                                    <p className='text-md font-semibold text-gray-600'>Subtotal 4 item</p>
+                                    <p className='text-md font-semibold text-gray-600'>$320.00</p>
+                                </div>
+                                <div className="tax flex justify-between mt-2">
+                                    <p className='text-md font-semibold text-gray-600'>Tax</p>
+                                    <p className='text-md font-semibold text-gray-600'>$5.00</p>
+                                </div>
+                                <div className="delivery-fee flex justify-between mt-2">
+                                    <p className='text-md font-semibold text-gray-600'>Delivery-fee</p>
+                                    <p className='text-md font-semibold text-gray-600'>$2.00</p>
+                                </div>
+                                <div className="total flex justify-between mt-3">
+                                    <p className='text-md font-bold text-gray-800'>Total</p>
+                                    <p className='text-md font-bold text-gray-800'>$327</p>
+                                </div>
+
+                            </div>
+                            <div className="place-btn mt-9 px-2">
+                                <button className='text-white font-semibold rounded-sm bg-neutral-400 h-12 bg-opacity-75 max-w-xs w-full'>Place Order</button>
                             </div>
                         </div>
                     </div>
